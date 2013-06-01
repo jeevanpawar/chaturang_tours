@@ -1,4 +1,7 @@
 <?php
+session_start();
+
+error_reporting(0);
 	include("include/database.php");
 	
 	if(isset($_REQUEST['login']))
@@ -7,6 +10,7 @@
 		$result = mysql_query($sql);
 		if($row = mysql_fetch_array($result))
 		  {
+			 $_SESSION['user']=$row[1];
 			 header("Location:company.php");
 		  }
 		else
@@ -32,7 +36,7 @@
 <form action="" method="post">
 <div id="login-box">
 
-<H2 align="left">CHATURANG TOURS PVT LTD</H2>
+<H2 align="left"><span class="main">CHATURANG</span><br /><span class="tour">TOURS PVT LTD</span></H2>
 
 <div class="all">
 <div id="login-box-name" style="margin-top:20px;">User:</div><div id="login-box-field" style="margin-top:20px;"><input name="username" class="form-login" title="Username" placeholder="Enter User Name" size="30" maxlength="2048" /></div>
@@ -48,18 +52,5 @@
 </div>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
