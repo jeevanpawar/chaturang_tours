@@ -76,13 +76,16 @@ body
 {
 	letter-spacing:5px;
 	font-size:52px;
+		text-shadow: 1px 3px 2px #666;
+
 }
 .tour
 {
 	letter-spacing:5px;
 	font-size:30px;
 	margin-left:35px;
-	
+			text-shadow: 1px 3px 2px #666;
+
 }
 .all
 {

@@ -11,6 +11,8 @@ error_reporting(0);
 		if($row = mysql_fetch_array($result))
 		  {
 			 $_SESSION['user']=$row[1];
+			 session_is_registered();
+
 			 header("Location:company.php");
 		  }
 		else

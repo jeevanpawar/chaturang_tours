@@ -1,4 +1,6 @@
 <?php
+session_start(0);
+$a=$_SESSION['user'];
 error_reporting(0);
 
 ?>
@@ -65,6 +67,7 @@ error_reporting(0);
            </li>
        
         </ul>
+        <div>Welcome</div>
     </div>
     
     <div id="sub-header">
