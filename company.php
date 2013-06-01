@@ -10,14 +10,13 @@
 <body>
 
 
-<div style="padding: 100px 0 0 0;" align="center">
+<div style="padding: 130px 0 0 0;" align="center">
 <form action="home.php" method="post">
 
 <div id="login-box">
 
 <H2 align="left">CHATURANG TOURS PVT LTD</H2>
-<br />
-<br />
+
 <div id="login-box-field" style="margin-top:20px;"><label id="select">Select Company</label></div>
 <div id="login-box-field-select">
 <select>
