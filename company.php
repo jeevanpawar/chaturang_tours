@@ -32,9 +32,10 @@ echo "Welcome:$a";
 </div>
 <br />
 <br />
+
 <div id="login-box-field" style="margin-top:20px;"><label id="select">Select Company</label></div>
 <div id="login-box-field-select">
-<select>
+<select name="t1">
 <option>Chaturang Tours</option>
 <option>Chaturang Tours Pvt Ltd</option>
 <option>Chaturang Holidays</option>
@@ -44,7 +45,7 @@ echo "Welcome:$a";
 <span class="login-box-options"></span>
 <br />
 <br />
-<div  ><input class="logcom" type="submit" value="Go" /></div>
+<div  ><input class="logcom" name="go" type="submit" value="Go" /></div>
 
 
 

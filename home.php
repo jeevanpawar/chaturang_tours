@@ -67,13 +67,12 @@ error_reporting(0);
            </li>
        
         </ul>
-        <div>Welcome</div>
     </div>
     
     <div id="sub-header">
 		<div class="quo">
     	<br />
-		<div class="quotation"><center>Todays Reminders</center></div>
+		<div class="quotation"><center>Booking Form</center></div>
         <table class="emp_tab">
         <tr class="emp_header">
         <td width="150">Date</td>
