@@ -4,9 +4,16 @@ session_start();
 include("include/database.php");
 
 $a=$_SESSION['user'];
+?>
 
+<?php
+if(isset($_REQUEST['go'])&&$_REQUEST['t1'])
+{
+	header("location:a.php");
+}
 
 ?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -36,9 +43,9 @@ echo "Welcome:$a";
 <div id="login-box-field" style="margin-top:20px;"><label id="select">Select Company</label></div>
 <div id="login-box-field-select">
 <select name="t1">
-<option>Chaturang Tours</option>
-<option>Chaturang Tours Pvt Ltd</option>
-<option>Chaturang Holidays</option>
+<option value="1">Chaturang Tours</option>
+<option value="2">Chaturang Tours Pvt Ltd</option>
+<option value="3">Chaturang Holidays</option>
 </select>
 </div>
 <br />

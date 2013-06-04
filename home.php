@@ -7,7 +7,7 @@ error_reporting(0);
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Anmol Water Tank Cleners</title>
+<title>Chaturang</title>
 <link rel="stylesheet" href="styles.css" type="text/css" />
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/slider.js"></script>
@@ -72,7 +72,6 @@ error_reporting(0);
     <div id="sub-header">
 		<div class="quo">
     	<br />
-		<div class="quotation"><center>Booking Form</center></div>
         <table class="emp_tab">
         <tr class="emp_header">
         <td width="150">Date</td>

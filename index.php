@@ -2,6 +2,7 @@
 session_start();
 
 error_reporting(0);
+
 	include("include/database.php");
 	
 	if(isset($_REQUEST['login']))
@@ -28,6 +29,24 @@ error_reporting(0);
 <title>Chaturang</title>
 
 <link href="login-box.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.reference {
+	
+	position:fixed;
+	width:100%;
+
+	left:-1px;
+	right:-1px;
+	text-align:center;
+	height:25px;
+	color:#FFF;
+	opacity:0.2;
+	background-color:#333;
+	letter-spacing:1px;
+	padding-left:5px;
+	bottom:0px;
+}
+</style>
 </head>
 
 <body>
@@ -54,5 +73,8 @@ error_reporting(0);
 </div>
 
 </div>
+
+<div class="reference">Copyright @ 2013 Chaturang Tours Pvt. Ltd. Powered By: Wave TechLine India Pvt. Ltd.</div>
+
 </body>
 </html>
