@@ -653,6 +653,17 @@ div#footer-links p {
 	border:none;
 	color:#fff;
 }
+.q_term
+{
+	width:475px;
+	height:200px;
+	background-color:#333;
+	opacity:0.5;
+	font-size:18px;
+	border:none;
+	color:#fff;
+}
+
 .des_in
 {
 	width:100%;
@@ -777,15 +788,15 @@ div#footer-links p {
 }
 .addemp_tab
 {
-	width:500px;
-	height:300px;
+	width:800px;
+	height:400px;
 	margin-top:20px;
-	margin-left:400px;
+	margin-left:300px;
 }
 .addemp_b
 {
 	margin-top:-10px;
-	margin-left:585px;
+	margin-left:525px;
 }
 .addamc_b
 {

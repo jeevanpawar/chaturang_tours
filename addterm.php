@@ -44,47 +44,24 @@
     <div id="nav">
     	<ul class="sf-menu dropdown">
         	
-        	<li><a href="index.php">Home</a></li>
-            <li ><a class="has_submenu" href="site.php">Sites</a>
-            <ul>
-                	<li><a href="siteassgn.php">Assign To</a></li>
-                </ul>
+        	<li class="selected"><a href="index.php">Home</a></li>
+            <li ><a href="site.php">Booking Form</a>
+            
             </li>
-            <li ><a class="has_submenu" href="site.php">AMC</a>
+            
+            <li><a class="has_submenu" href="clients.php">Hotels</a>
             	<ul>
-                    <li><a href="amcreport.php">Amc Details</a></li>
+                	<li><a href="addhotels.php">Add New Hotels</a></li>
                 </ul>
-
-            </li>
             
-
-            <li><a class="has_submenu" href="clients.php">Clients</a>
-            	<ul>
-                	<li><a href="addclients.php">Add Clients</a></li>
-                    
-                    </ul>
             
-            </li>
-            <li><a class="has_submenu" href="employee.php">Employees</a>
-            		<ul>
-                	<li><a href="addepm.php">Add Employee</a></li>
-                    <li><a href="employee.php">Employee Details</a></li>
-                    </ul>
-            
-            </li>
-            <li><a href="invoice.php">Invoice</a></li>
-            <li><a class="has_submenu" href="quotation.php">Quotation</a>
-            		<ul>
-                	<li><a href="quotationI.php">Quotation I</a></li>
-                    <li><a href="quotationII.php">Quotation II</a></li>
-                    </ul>
-            </li>
-      <li><a class="has_submenu"  href="term.php">Terms & Conditions</a>
+            <li><a class="has_submenu"  href="term.php">Terms & Conditions</a>
             <ul>
               	<li><a href="addterm.php">Add Terms</a></li>
             </ul>
            </li>
-       
+           <li><a href="?id">LogOut</a>
+                </li>
         </ul>
     </div>
     
@@ -96,18 +73,18 @@
         <form action="" method="post">
         <table class="addemp_tab">
         <tr>
-        <td class="l_form">Term No:</td>
+        <td class="l_form">Title:</td>
         <td><input type="text" class="q_in" name="t_no"></td>
         </tr>
         <tr>
-        <td valign="top" class="l_form">Terms & Conditions:</td>
-        <td><textarea class="q_add" name="term"></textarea></td>
+        <td class="l_form">Terms & Conditions:</td>
+        <td><textarea class="q_term" name="term"></textarea></td>
         </tr>
         
         </div>
         </table>
         <div class="addemp_b">
-         <input name="e_up" class="formbutton" value=" Submit " type="submit" />
+         <input name="e_up" class="formbutton" value=" ADD " type="submit" />
          <input name="e_can" class="formbutton" value="Cancel" type="submit" />
         </div>
         
